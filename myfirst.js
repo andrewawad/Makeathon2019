@@ -4,7 +4,8 @@ var app = express();
  
 app.use(myParser.urlencoded({extended : true}));
 app.post("/", function(request, response) {
-console.log(request.body); //This prints the JSON document received (if it is a JSON document) });
+console.log(request.body); //This prints the JSON document received (if it is a JSON document)
+ });
 
 var http = require('http');
 port = process.env.PORT || 80
