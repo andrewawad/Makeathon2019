@@ -12,7 +12,7 @@ http.createServer(function (req, res) {
 res.writeHead(200, {'Content-Type': 'text/plain'});
 res.write('Hello World!');  
 app.use(myParser.urlencoded({extended : true}));
-app.post("/", function(request, response) {
-res.write(request.body); //This prints the JSON document received (if it is a JSON document:e)
+app.post("/", function(request, response) => {
+response.write(request.body); //This prints the JSON document received (if it is a JSON document:e)
 });
 }).listen(port);
