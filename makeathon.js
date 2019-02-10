@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 app.post('/', (request, response) => {
   const postBody = request.body;
-  console.log(postBody);
+  response.write(postBody);
 });
 port =  process.env.PORT || 80
-app.listen((port), () => console.info('Application running on port 3000'));
+app.listen((port), () => response.write('Application running on port 3000'));
