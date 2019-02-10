@@ -1,6 +1,6 @@
 var express = require("express");
 var myParser = require("body-parser");
-var app = express();
+var app = express.Router();
  
 //app.use(myParser.urlencoded({extended : true}));
 //app.post("/sam", function(request, response) {
