@@ -1,2 +1,2 @@
-web: node mysecond.js
+web: node myfirst.js
 
