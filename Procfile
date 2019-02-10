@@ -1,2 +1,2 @@
-web: node myfirst.js
+web: node makeathon.js
 
