@@ -3,7 +3,7 @@ var myParser = require("body-parser");
 var app = express.Router();
  
 //app.use(myParser.urlencoded({extended : true}));
-//app.post("/sam", function(request, response) {
+//app.post("/saam", function(request, response) {
 //res.write(request.body); //This prints the JSON document received (if it is a JSON document)
 // });
 var http = require('http');
