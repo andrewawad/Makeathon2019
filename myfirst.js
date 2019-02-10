@@ -15,5 +15,4 @@ app.use(myParser.urlencoded({extended : true}));
 app.post("/sam", function(request, response) {
 res.write(request.body); //This prints the JSON document received (if it is a JSON document:e)
 });
-res.end()
 }).listen(port);
